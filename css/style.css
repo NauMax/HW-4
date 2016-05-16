@@ -32,14 +32,20 @@ body {
 	margin-top:12%;
 	margin-right: -13%;
 }
+
+.img2{
+	  opacity: 0.7;
+}
+
 .img2:hover {
 	-webkit-box-shadow: 0px -48px 30px 0px rgba(0, 133, 255, 0.78);
-		-moz-box-shadow:    0px -48px 30px 0px rgba(0, 133, 255, 0.78);
-		box-shadow:         0px -48px 30px 0px rgba(0, 133, 255, 0.78);
+	-moz-box-shadow:    0px -48px 30px 0px rgba(0, 133, 255, 0.78);
+	box-shadow:         0px -48px 30px 0px rgba(0, 133, 255, 0.78);
+	opacity: 1;
 }
 
 .photo{
-margin-top: -7px;
+	margin-top: -7px;
 }
 
 .menu  {
@@ -136,20 +142,20 @@ z-index: 1;
 	border-bottom: 1px solid #707772;
 	z-index: 1;
 	-webkit-border-radius: 15px;
--moz-border-radius: 15px;
-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
 }
 
 ul.submenu {
 	display: none;
-  width: auto;
-  top: 41px;
-  left: 4;
+  	width: auto;
+  	top: 41px;
+  	left: 4;
 	background-color:#343434;
 }
 
 ul.menu1 > li:hover > ul.submenu {
-  display: block;
+	 display: block;
 }
 
 .men li{
